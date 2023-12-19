@@ -19,6 +19,7 @@ ffibuilder.set_source(
     "_libheif_cffi",
     """
      #include "libheif/heif.h"
+     #include "libheif/heif_properties.h"
     """,
     include_dirs=include_dirs,
     library_dirs=library_dirs,
